@@ -102,7 +102,6 @@ La clase principal se compila en el proyecto y se puede ejecutar con el siguient
 
 ```java
 @RestController
-@MapperScan("bg.com.bo.demoBG.dao")
 public class TestController {
 
     @Autowired
